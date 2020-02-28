@@ -36,9 +36,9 @@
                         </div>
                         <div class="col-md-4">
 
-                            Total Due:  ₦{{ $sale->total  }} <br>
-                            Total Paid: ₦ {{$paid}} <br>
-                            Balance: ₦ {{$sale->total - $paid}} @if($sale->total - $paid < 0 ) (Company Owes Sales Rep) @endif
+                            Total Due:  &#x20B5;{{ $sale->total  }} <br>
+                            Total Paid: &#x20B5; {{$paid}} <br>
+                            Balance: &#x20B5; {{$sale->total - $paid}} @if($sale->total - $paid < 0 ) (Company Owes Sales Rep) @endif
 
                         </div>
                         <div class="col-md-1">
@@ -94,7 +94,7 @@
                             <tr>
                                 <th>S/N</th>
                                 <th>Receipt ID</th>
-                                <th>Amount Paid (₦)</th>
+                                <th>Amount Paid (&#x20B5;)</th>
                                 <th>Details</th>
                                 <th>Date</th>
                                 <th></th>

@@ -36,7 +36,6 @@
 
                     <div class="col-md-6">
                         <select class="form-control" name="currency">
-                            <option>NGN</option>
                             <option>GHC</option>
                             <option>USD</option>
                         </select>

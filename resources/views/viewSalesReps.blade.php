@@ -52,7 +52,7 @@
             <br>
                 @if(Input::has('min') && Input::has('max'))
                      <span class="label label-success">
-                        Filtered by Amount Owed - Between GHC{{Input::get('min')}} and ₦{{Input::get('max')}}
+                        Filtered by Amount Owed - Between GHC{{Input::get('min')}} and &#x20B5;{{Input::get('max')}}
                     </span>
                 @endif
 

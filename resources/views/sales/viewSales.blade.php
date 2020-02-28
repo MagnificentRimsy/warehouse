@@ -136,7 +136,7 @@
 
                     @if(Input::get('by') != "quantity")
                         <span class="label label-success">
-                        Filtered by {{Input::get('by')}} - Between ₦{{Input::get('min')}} and ₦{{Input::get('max')}}
+                        Filtered by {{Input::get('by')}} - Between &#x20B5;{{Input::get('min')}} and &#x20B5;{{Input::get('max')}}
                     </span>
                     @else
                         <span class="label label-success">
@@ -161,7 +161,7 @@
             </div>
             <div class="box-typical-body panel-body">
                 <div style="font-size: 20px;">
-                    <span style="float: right">&nbsp;Vat:₦{{$vat}}</span> <span style="float: right;">Total Sales: ₦{{$totalSales}}</span>
+                    <span style="float: right">&nbsp;Vat:&#x20B5;{{$vat}}</span> <span style="float: right;">Total Sales: &#x20B5;{{$totalSales}}</span>
                 </div>
                 <table class="table table-hover">
                     <tr>

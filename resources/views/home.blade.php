@@ -36,7 +36,7 @@
                             <div class="col-sm-6">
                                 <article class="statistic-box yellow">
                                     <div>
-                                        <div class="number">₦{{number_format($sales)}}</div>
+                                        <div class="number">&#x20B5;{{number_format($sales)}}</div>
                                         <div class="caption"><div>Total Sales</div></div>
                                         <div class="percent">
                                             {{--<div class="arrow down"></div>--}}

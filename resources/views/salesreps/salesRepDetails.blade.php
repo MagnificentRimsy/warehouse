@@ -11,7 +11,7 @@
                     Phone - <span>{{$salesRep->phone}}</span><br>
                     Email - <span>{{$salesRep->email}}</span><br>
                     Total Credit - <span>{{$salesRep->credit}}</span><br>
-                    Total Value of Sales By Client - <span>₦{{$totalValue}}</span><br>
+                    Total Value of Sales By Client - <span>&#x20B5;{{$totalValue}}</span><br>
                     Number of Clients - <span>{{count($salesRep->Clients)}}</span>
                 </p>
 

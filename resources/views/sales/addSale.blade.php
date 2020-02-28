@@ -216,7 +216,7 @@
                     </script>
                     
                     <div class="form-group">
-                        <label class=" control-label">Total: ₦<span class="total">0</span> </label>
+                        <label class=" control-label">Total: &#x20B5;<span class="total">0</span> </label>
                         <input type="hidden" id="total" name="total" class="form-control" value="{{ old('total') }}">
                     </div>
 

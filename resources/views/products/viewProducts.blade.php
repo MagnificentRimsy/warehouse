@@ -66,7 +66,7 @@ use Carbon\Carbon;
 
                     @if(Input::get('numBy') != "quantity")
                     <span class="label label-success">
-                        Filtered by {{Input::get('numBy')}} - Between ₦{{Input::get('min')}} and ₦{{Input::get('max')}}
+                        Filtered by {{Input::get('numBy')}} - Between &#x20B5;{{Input::get('min')}} and &#x20B5;{{Input::get('max')}}
                     </span>
                         @else
                         <span class="label label-success">
